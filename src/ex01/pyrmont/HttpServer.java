@@ -65,7 +65,7 @@ public class HttpServer
         int port = 8080;
         try
         {
-            serverSocket = new ServerSocket(port,1,InetAddress.getByName("127.0.0.1"));
+            serverSocket = new ServerSocket(port,100,InetAddress.getByName("127.0.0.1"));
         }
         catch (UnknownHostException e)
         {
